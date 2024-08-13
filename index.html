@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Votación por Sección de la Ciudad</title>
+</head>
+<body>
+    <h1>Vota por tu Sección de la Ciudad</h1>
+    <form id="votarForm">
+        <label>
+            <input type="radio" name="seccion" value="norte"> Norte
+        </label>
+        <label>
+            <input type="radio" name="seccion" value="sur"> Sur
+        </label>
+        <label>
+            <input type="radio" name="seccion" value="centro"> Centro
+        </label>
+        <button type="submit">Emitir Voto</button>
+    </form>
+
+    <p id="resultado" style="margin-top: 20px;"></p>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
